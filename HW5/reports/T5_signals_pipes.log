@@ -1,0 +1,9 @@
+STATUS queued_jobs=1 active_jobs=0 files=0 bytes=0 workers_alive=3 complete=0
+T5MSG type=WORKER_EXITING worker_id=2 reason=shutdown
+T5MSG type=WORKER_EXITING worker_id=0 reason=shutdown
+T5MSG type=WORKER_EXITING worker_id=1 reason=shutdown
+fileops_manager: inventory incomplete
+file_record_count=0
+worker_count=3
+complete=0
+verify=OK

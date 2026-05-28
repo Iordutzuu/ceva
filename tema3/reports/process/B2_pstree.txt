@@ -1,0 +1,435 @@
+systemd(1)-+-ModemManager(798)-+-{ModemManager}(857)
+           |                   `-{ModemManager}(861)
+           |-NetworkManager(697)-+-{NetworkManager}(747)
+           |                     `-{NetworkManager}(755)
+           |-accounts-daemon(682)-+-{accounts-daemon}(737)
+           |                      `-{accounts-daemon}(753)
+           |-acpid(684)
+           |-agetty(991)
+           |-at-spi2-registr(1512)-+-{at-spi2-registr}(1517)
+           |                       `-{at-spi2-registr}(1521)
+           |-avahi-daemon(687)---avahi-daemon(749)
+           |-blueman-tray(2338)-+-{blueman-tray}(2661)
+           |                    `-{blueman-tray}(2663)
+           |-bluetoothd(690)
+           |-chrome_crashpad(7395)-+-{chrome_crashpad}(7396)
+           |                       `-{chrome_crashpad}(7397)
+           |-colord(1532)-+-{colord}(1542)
+           |              `-{colord}(1544)
+           |-crashhelper(10355)---{crashhelper}(10356)
+           |-cron(692)
+           |-csd-printer(1513)-+-{csd-printer}(1527)
+           |                   `-{csd-printer}(1528)
+           |-cups-browsed(971)-+-{cups-browsed}(976)
+           |                   `-{cups-browsed}(977)
+           |-cupsd(815)
+           |-dbus-daemon(694)
+           |-gnome-keyring-d(1205)-+-{gnome-keyring-d}(1206)
+           |                       |-{gnome-keyring-d}(1207)
+           |                       `-{gnome-keyring-d}(1426)
+           |-irqbalance(702)---{irqbalance}(727)
+           |-kerneloops(973)
+           |-kerneloops(975)
+           |-lightdm(981)-+-Xorg(989)-+-{Xorg}(1052)
+           |              |           |-{Xorg}(1053)
+           |              |           |-{Xorg}(1054)
+           |              |           |-{Xorg}(1055)
+           |              |           |-{Xorg}(1056)
+           |              |           |-{Xorg}(1057)
+           |              |           |-{Xorg}(1058)
+           |              |           |-{Xorg}(1059)
+           |              |           |-{Xorg}(1060)
+           |              |           |-{Xorg}(1061)
+           |              |           |-{Xorg}(1062)
+           |              |           |-{Xorg}(1063)
+           |              |           `-{Xorg}(1066)
+           |              |-lightdm(1150)-+-cinnamon-sessio(1208)-+-agent(1666)-+-{agent}(1668)
+           |              |               |                       |             `-{agent}(1670)
+           |              |               |                       |-applet.py(6988)
+           |              |               |                       |-at-spi-bus-laun(1437)-+-dbus-daemon(1452)
+           |              |               |                       |                       |-{at-spi-bus-laun}(1446)
+           |              |               |                       |                       |-{at-spi-bus-laun}(1447)
+           |              |               |                       |                       `-{at-spi-bus-laun}(1449)
+           |              |               |                       |-blueman-applet(1654)-+-{blueman-applet}(1705)
+           |              |               |                       |                      |-{blueman-applet}(1706)
+           |              |               |                       |                      `-{blueman-applet}(1781)
+           |              |               |                       |-cinnamon-killer(1665)-+-{cinnamon-killer}(1690)
+           |              |               |                       |                       |-{cinnamon-killer}(1691)
+           |              |               |                       |                       `-{cinnamon-killer}(1695)
+           |              |               |                       |-cinnamon-launch(1549)-+-cinnamon(1578)-+-Discord(7373)-+-Discor+
+           |              |               |                       |                       |                |               |-Discor+
+           |              |               |                       |                       |                |               |-Discor+
+           |              |               |                       |                       |                |               |-Discor+
+           |              |               |                       |                       |                |               |-Discor+
+           |              |               |                       |                       |                |               |-{Disco+
+           |              |               |                       |                       |                |               |-{Disco+
+           |              |               |                       |                       |                |               |-{Disco+
+           |              |               |                       |                       |                |               |-{Disco+
+           |              |               |                       |                       |                |               |-{Disco+
+           |              |               |                       |                       |                |               |-{Disco+
+           |              |               |                       |                       |                |               |-{Disco+
+           |              |               |                       |                       |                |               |-{Disco+
+           |              |               |                       |                       |                |               |-{Disco+
+           |              |               |                       |                       |                |               |-{Disco+
+           |              |               |                       |                       |                |               |-{Disco+
+           |              |               |                       |                       |                |               |-{Disco+
+           |              |               |                       |                       |                |               |-{Disco+
+           |              |               |                       |                       |                |               |-{Disco+
+           |              |               |                       |                       |                |               |-{Disco+
+           |              |               |                       |                       |                |               |-{Disco+
+           |              |               |                       |                       |                |               |-{Disco+
+           |              |               |                       |                       |                |               |-{Disco+
+           |              |               |                       |                       |                |               |-{Disco+
+           |              |               |                       |                       |                |               |-{Disco+
+           |              |               |                       |                       |                |               |-{Disco+
+           |              |               |                       |                       |                |               |-{Disco+
+           |              |               |                       |                       |                |               |-{Disco+
+           |              |               |                       |                       |                |               |-{Disco+
+           |              |               |                       |                       |                |               |-{Disco+
+           |              |               |                       |                       |                |               |-{Disco+
+           |              |               |                       |                       |                |               |-{Disco+
+           |              |               |                       |                       |                |               |-{Disco+
+           |              |               |                       |                       |                |               |-{Disco+
+           |              |               |                       |                       |                |               |-{Disco+
+           |              |               |                       |                       |                |               |-{Disco+
+           |              |               |                       |                       |                |               |-{Disco+
+           |              |               |                       |                       |                |               |-{Disco+
+           |              |               |                       |                       |                |               |-{Disco+
+           |              |               |                       |                       |                |               |-{Disco+
+           |              |               |                       |                       |                |               |-{Disco+
+           |              |               |                       |                       |                |               |-{Disco+
+           |              |               |                       |                       |                |               |-{Disco+
+           |              |               |                       |                       |                |               |-{Disco+
+           |              |               |                       |                       |                |               |-{Disco+
+           |              |               |                       |                       |                |               |-{Disco+
+           |              |               |                       |                       |                |               `-{Disco+
+           |              |               |                       |                       |                |-firefox-bin(10348)-+-f+
+           |              |               |                       |                       |                |                    |-{+
+           |              |               |                       |                       |                |                    |-{+
+           |              |               |                       |                       |                |                    |-{+
+           |              |               |                       |                       |                |                    |-{+
+           |              |               |                       |                       |                |                    |-{+
+           |              |               |                       |                       |                |                    |-{+
+           |              |               |                       |                       |                |                    |-{+
+           |              |               |                       |                       |                |                    |-{+
+           |              |               |                       |                       |                |                    |-{+
+           |              |               |                       |                       |                |                    |-{+
+           |              |               |                       |                       |                |                    |-{+
+           |              |               |                       |                       |                |                    |-{+
+           |              |               |                       |                       |                |                    |-{+
+           |              |               |                       |                       |                |                    |-{+
+           |              |               |                       |                       |                |                    |-{+
+           |              |               |                       |                       |                |                    |-{+
+           |              |               |                       |                       |                |                    |-{+
+           |              |               |                       |                       |                |                    |-{+
+           |              |               |                       |                       |                |                    |-{+
+           |              |               |                       |                       |                |                    |-{+
+           |              |               |                       |                       |                |                    |-{+
+           |              |               |                       |                       |                |                    |-{+
+           |              |               |                       |                       |                |                    |-{+
+           |              |               |                       |                       |                |                    |-{+
+           |              |               |                       |                       |                |                    |-{+
+           |              |               |                       |                       |                |                    |-{+
+           |              |               |                       |                       |                |                    |-{+
+           |              |               |                       |                       |                |                    |-{+
+           |              |               |                       |                       |                |                    |-{+
+           |              |               |                       |                       |                |                    |-{+
+           |              |               |                       |                       |                |                    |-{+
+           |              |               |                       |                       |                |                    |-{+
+           |              |               |                       |                       |                |                    |-{+
+           |              |               |                       |                       |                |                    |-{+
+           |              |               |                       |                       |                |                    |-{+
+           |              |               |                       |                       |                |                    |-{+
+           |              |               |                       |                       |                |                    |-{+
+           |              |               |                       |                       |                |                    |-{+
+           |              |               |                       |                       |                |                    |-{+
+           |              |               |                       |                       |                |                    |-{+
+           |              |               |                       |                       |                |                    |-{+
+           |              |               |                       |                       |                |                    |-{+
+           |              |               |                       |                       |                |                    |-{+
+           |              |               |                       |                       |                |                    |-{+
+           |              |               |                       |                       |                |                    |-{+
+           |              |               |                       |                       |                |                    |-{+
+           |              |               |                       |                       |                |                    |-{+
+           |              |               |                       |                       |                |                    |-{+
+           |              |               |                       |                       |                |                    |-{+
+           |              |               |                       |                       |                |                    |-{+
+           |              |               |                       |                       |                |                    |-{+
+           |              |               |                       |                       |                |                    |-{+
+           |              |               |                       |                       |                |                    |-{+
+           |              |               |                       |                       |                |                    |-{+
+           |              |               |                       |                       |                |                    |-{+
+           |              |               |                       |                       |                |                    |-{+
+           |              |               |                       |                       |                |                    |-{+
+           |              |               |                       |                       |                |                    |-{+
+           |              |               |                       |                       |                |                    |-{+
+           |              |               |                       |                       |                |                    |-{+
+           |              |               |                       |                       |                |                    |-{+
+           |              |               |                       |                       |                |                    |-{+
+           |              |               |                       |                       |                |                    |-{+
+           |              |               |                       |                       |                |                    |-{+
+           |              |               |                       |                       |                |                    |-{+
+           |              |               |                       |                       |                |                    |-{+
+           |              |               |                       |                       |                |                    |-{+
+           |              |               |                       |                       |                |                    |-{+
+           |              |               |                       |                       |                |                    |-{+
+           |              |               |                       |                       |                |                    |-{+
+           |              |               |                       |                       |                |                    |-{+
+           |              |               |                       |                       |                |                    |-{+
+           |              |               |                       |                       |                |                    |-{+
+           |              |               |                       |                       |                |                    |-{+
+           |              |               |                       |                       |                |                    |-{+
+           |              |               |                       |                       |                |                    |-{+
+           |              |               |                       |                       |                |                    |-{+
+           |              |               |                       |                       |                |                    |-{+
+           |              |               |                       |                       |                |                    |-{+
+           |              |               |                       |                       |                |                    |-{+
+           |              |               |                       |                       |                |                    |-{+
+           |              |               |                       |                       |                |                    |-{+
+           |              |               |                       |                       |                |                    |-{+
+           |              |               |                       |                       |                |                    |-{+
+           |              |               |                       |                       |                |                    |-{+
+           |              |               |                       |                       |                |                    |-{+
+           |              |               |                       |                       |                |                    |-{+
+           |              |               |                       |                       |                |                    |-{+
+           |              |               |                       |                       |                |                    |-{+
+           |              |               |                       |                       |                |                    |-{+
+           |              |               |                       |                       |                |                    |-{+
+           |              |               |                       |                       |                |                    `-{+
+           |              |               |                       |                       |                |-{cinnamon}(1592)
+           |              |               |                       |                       |                |-{cinnamon}(1594)
+           |              |               |                       |                       |                |-{cinnamon}(1595)
+           |              |               |                       |                       |                |-{cinnamon}(1596)
+           |              |               |                       |                       |                |-{cinnamon}(1597)
+           |              |               |                       |                       |                |-{cinnamon}(1598)
+           |              |               |                       |                       |                |-{cinnamon}(1599)
+           |              |               |                       |                       |                |-{cinnamon}(1600)
+           |              |               |                       |                       |                |-{cinnamon}(1601)
+           |              |               |                       |                       |                |-{cinnamon}(1602)
+           |              |               |                       |                       |                |-{cinnamon}(1603)
+           |              |               |                       |                       |                |-{cinnamon}(1604)
+           |              |               |                       |                       |                |-{cinnamon}(1605)
+           |              |               |                       |                       |                |-{cinnamon}(1606)
+           |              |               |                       |                       |                |-{cinnamon}(1607)
+           |              |               |                       |                       |                |-{cinnamon}(1608)
+           |              |               |                       |                       |                |-{cinnamon}(1609)
+           |              |               |                       |                       |                |-{cinnamon}(1610)
+           |              |               |                       |                       |                |-{cinnamon}(1611)
+           |              |               |                       |                       |                |-{cinnamon}(1612)
+           |              |               |                       |                       |                |-{cinnamon}(1613)
+           |              |               |                       |                       |                |-{cinnamon}(1614)
+           |              |               |                       |                       |                |-{cinnamon}(1615)
+           |              |               |                       |                       |                |-{cinnamon}(1616)
+           |              |               |                       |                       |                |-{cinnamon}(1617)
+           |              |               |                       |                       |                |-{cinnamon}(1618)
+           |              |               |                       |                       |                |-{cinnamon}(1619)
+           |              |               |                       |                       |                |-{cinnamon}(1620)
+           |              |               |                       |                       |                |-{cinnamon}(1623)
+           |              |               |                       |                       |                |-{cinnamon}(1624)
+           |              |               |                       |                       |                |-{cinnamon}(1625)
+           |              |               |                       |                       |                |-{cinnamon}(1626)
+           |              |               |                       |                       |                |-{cinnamon}(1627)
+           |              |               |                       |                       |                |-{cinnamon}(1628)
+           |              |               |                       |                       |                |-{cinnamon}(1629)
+           |              |               |                       |                       |                |-{cinnamon}(1630)
+           |              |               |                       |                       |                `-{cinnamon}(2386)
+           |              |               |                       |                       |-{cinnamon-launch}(1575)
+           |              |               |                       |                       |-{cinnamon-launch}(1576)
+           |              |               |                       |                       |-{cinnamon-launch}(1579)
+           |              |               |                       |                       |-{cinnamon-launch}(1580)
+           |              |               |                       |                       `-{cinnamon-launch}(1581)
+           |              |               |                       |-csd-a11y-settin(1431)-+-{csd-a11y-settin}(1434)
+           |              |               |                       |                       |-{csd-a11y-settin}(1435)
+           |              |               |                       |                       `-{csd-a11y-settin}(1468)
+           |              |               |                       |-csd-automount(1456)-+-{csd-automount}(1493)
+           |              |               |                       |                     |-{csd-automount}(1494)
+           |              |               |                       |                     `-{csd-automount}(1515)
+           |              |               |                       |-csd-background(1460)-+-{csd-background}(1490)
+           |              |               |                       |                      |-{csd-background}(1492)
+           |              |               |                       |                      `-{csd-background}(1514)
+           |              |               |                       |-csd-clipboard(1432)-+-{csd-clipboard}(1473)
+           |              |               |                       |                     `-{csd-clipboard}(1475)
+           |              |               |                       |-csd-color(1457)-+-{csd-color}(1497)
+           |              |               |                       |                 |-{csd-color}(1504)
+           |              |               |                       |                 `-{csd-color}(1523)
+           |              |               |                       |-csd-housekeepin(1439)-+-{csd-housekeepin}(1476)
+           |              |               |                       |                       |-{csd-housekeepin}(1478)
+           |              |               |                       |                       `-{csd-housekeepin}(1509)
+           |              |               |                       |-csd-keyboard(1461)-+-{csd-keyboard}(1496)
+           |              |               |                       |                    |-{csd-keyboard}(1503)
+           |              |               |                       |                    `-{csd-keyboard}(1520)
+           |              |               |                       |-csd-media-keys(1430)-+-{csd-media-keys}(1470)
+           |              |               |                       |                      |-{csd-media-keys}(1474)
+           |              |               |                       |                      `-{csd-media-keys}(1524)
+           |              |               |                       |-csd-power(1445)-+-{csd-power}(1480)
+           |              |               |                       |                 |-{csd-power}(1482)
+           |              |               |                       |                 `-{csd-power}(1511)
+           |              |               |                       |-csd-print-notif(1433)-+-{csd-print-notif}(1443)
+           |              |               |                       |                       `-{csd-print-notif}(1444)
+           |              |               |                       |-csd-screensaver(1436)-+-{csd-screensaver}(1438)
+           |              |               |                       |                       `-{csd-screensaver}(1441)
+           |              |               |                       |-csd-settings-re(1442)-+-{csd-settings-re}(1450)
+           |              |               |                       |                       |-{csd-settings-re}(1453)
+           |              |               |                       |                       `-{csd-settings-re}(1469)
+           |              |               |                       |-csd-wacom(1428)-+-{csd-wacom}(1467)
+           |              |               |                       |                 `-{csd-wacom}(1471)
+           |              |               |                       |-csd-xsettings(1429)-+-{csd-xsettings}(1462)
+           |              |               |                       |                     |-{csd-xsettings}(1464)
+           |              |               |                       |                     `-{csd-xsettings}(1505)
+           |              |               |                       |-evolution-alarm(1652)-+-{evolution-alarm}(1677)
+           |              |               |                       |                       |-{evolution-alarm}(1679)
+           |              |               |                       |                       |-{evolution-alarm}(1685)
+           |              |               |                       |                       |-{evolution-alarm}(1686)
+           |              |               |                       |                       `-{evolution-alarm}(1867)
+           |              |               |                       |-nemo-desktop(1660)-+-{nemo-desktop}(1673)
+           |              |               |                       |                    |-{nemo-desktop}(1674)
+           |              |               |                       |                    `-{nemo-desktop}(1687)
+           |              |               |                       |-nm-applet(1663)-+-{nm-applet}(1675)
+           |              |               |                       |                 |-{nm-applet}(1676)
+           |              |               |                       |                 `-{nm-applet}(1683)
+           |              |               |                       |-nvidia-prime(1651)-+-{nvidia-prime}(1696)
+           |              |               |                       |                    `-{nvidia-prime}(1697)
+           |              |               |                       |-polkit-gnome-au(1667)-+-{polkit-gnome-au}(1678)
+           |              |               |                       |                       `-{polkit-gnome-au}(1680)
+           |              |               |                       |-xapp-sn-watcher(1635)-+-{xapp-sn-watcher}(1646)
+           |              |               |                       |                       |-{xapp-sn-watcher}(1647)
+           |              |               |                       |                       `-{xapp-sn-watcher}(1648)
+           |              |               |                       |-{cinnamon-sessio}(1415)
+           |              |               |                       |-{cinnamon-sessio}(1416)
+           |              |               |                       `-{cinnamon-sessio}(1417)
+           |              |               |-{lightdm}(1186)
+           |              |               `-{lightdm}(1187)
+           |              |-{lightdm}(982)
+           |              `-{lightdm}(984)
+           |-mintUpdate(6928)-+-{mintUpdate}(6930)
+           |                  |-{mintUpdate}(6931)
+           |                  |-{mintUpdate}(6932)
+           |                  |-{mintUpdate}(6933)
+           |                  |-{mintUpdate}(6955)
+           |                  `-{mintUpdate}(6957)
+           |-mintreport-tray(7055)-+-{mintreport-tray}(7056)
+           |                       |-{mintreport-tray}(7057)
+           |                       `-{mintreport-tray}(7060)
+           |-networkd-dispat(708)
+           |-packagekitd(8665)-+-{packagekitd}(8666)
+           |                   `-{packagekitd}(8667)
+           |-polkitd(710)-+-{polkitd}(719)
+           |              `-{polkitd}(748)
+           |-rsyslogd(713)-+-{rsyslogd}(765)
+           |               |-{rsyslogd}(766)
+           |               `-{rsyslogd}(767)
+           |-rtkit-daemon(1091)-+-{rtkit-daemon}(1093)
+           |                    `-{rtkit-daemon}(1094)
+           |-switcheroo-cont(718)-+-{switcheroo-cont}(761)
+           |                      `-{switcheroo-cont}(771)
+           |-systemd(1193)-+-(sd-pam)(1194)
+           |               |-dbus-daemon(1209)
+           |               |-dconf-service(1479)-+-{dconf-service}(1487)
+           |               |                     `-{dconf-service}(1489)
+           |               |-evolution-addre(2030)-+-{evolution-addre}(2077)
+           |               |                       |-{evolution-addre}(2088)
+           |               |                       |-{evolution-addre}(2117)
+           |               |                       |-{evolution-addre}(2119)
+           |               |                       `-{evolution-addre}(2179)
+           |               |-evolution-calen(1881)-+-{evolution-calen}(1913)
+           |               |                       |-{evolution-calen}(1918)
+           |               |                       |-{evolution-calen}(1977)
+           |               |                       |-{evolution-calen}(1978)
+           |               |                       |-{evolution-calen}(2020)
+           |               |                       |-{evolution-calen}(2023)
+           |               |                       |-{evolution-calen}(2037)
+           |               |                       `-{evolution-calen}(2055)
+           |               |-evolution-sourc(1688)-+-{evolution-sourc}(1713)
+           |               |                       |-{evolution-sourc}(1714)
+           |               |                       `-{evolution-sourc}(1715)
+           |               |-gnome-terminal-(8796)-+-bash(8817)---bash(10999)---pstree(11007)
+           |               |                       |-{gnome-terminal-}(8797)
+           |               |                       |-{gnome-terminal-}(8798)
+           |               |                       `-{gnome-terminal-}(8799)
+           |               |-goa-daemon(1562)-+-{goa-daemon}(1568)
+           |               |                  |-{goa-daemon}(1570)
+           |               |                  `-{goa-daemon}(1571)
+           |               |-goa-identity-se(1574)-+-{goa-identity-se}(1583)
+           |               |                       `-{goa-identity-se}(1585)
+           |               |-gvfs-afc-volume(1582)-+-{gvfs-afc-volume}(1587)
+           |               |                       |-{gvfs-afc-volume}(1588)
+           |               |                       `-{gvfs-afc-volume}(1590)
+           |               |-gvfs-goa-volume(1557)-+-{gvfs-goa-volume}(1559)
+           |               |                       `-{gvfs-goa-volume}(1560)
+           |               |-gvfs-gphoto2-vo(1547)-+-{gvfs-gphoto2-vo}(1550)
+           |               |                       `-{gvfs-gphoto2-vo}(1552)
+           |               |-gvfs-mtp-volume(1553)-+-{gvfs-mtp-volume}(1554)
+           |               |                       `-{gvfs-mtp-volume}(1556)
+           |               |-gvfs-udisks2-vo(1526)-+-{gvfs-udisks2-vo}(1534)
+           |               |                       |-{gvfs-udisks2-vo}(1537)
+           |               |                       `-{gvfs-udisks2-vo}(1545)
+           |               |-gvfsd(1466)-+-gvfsd-dnssd(9021)-+-{gvfsd-dnssd}(9022)
+           |               |             |                   `-{gvfsd-dnssd}(9023)
+           |               |             |-gvfsd-http(8859)-+-{gvfsd-http}(8860)
+           |               |             |                  `-{gvfsd-http}(8861)
+           |               |             |-gvfsd-network(9003)-+-{gvfsd-network}(9004)
+           |               |             |                     |-{gvfsd-network}(9005)
+           |               |             |                     `-{gvfsd-network}(9011)
+           |               |             |-gvfsd-trash(2181)-+-{gvfsd-trash}(2189)
+           |               |             |                   `-{gvfsd-trash}(2191)
+           |               |             |-{gvfsd}(1484)
+           |               |             `-{gvfsd}(1485)
+           |               |-gvfsd-fuse(1491)-+-{gvfsd-fuse}(1500)
+           |               |                  |-{gvfsd-fuse}(1501)
+           |               |                  |-{gvfsd-fuse}(1502)
+           |               |                  |-{gvfsd-fuse}(1507)
+           |               |                  `-{gvfsd-fuse}(1522)
+           |               |-gvfsd-metadata(4664)-+-{gvfsd-metadata}(4686)
+           |               |                      `-{gvfsd-metadata}(4689)
+           |               |-obexd(2331)
+           |               |-pipewire(1201)---{pipewire}(1216)
+           |               |-pulseaudio(1202)-+-{pulseaudio}(1260)
+           |               |                  |-{pulseaudio}(1264)
+           |               |                  |-{pulseaudio}(1268)
+           |               |                  |-{pulseaudio}(1269)
+           |               |                  |-{pulseaudio}(1276)
+           |               |                  |-{pulseaudio}(1277)
+           |               |                  `-{pulseaudio}(1312)
+           |               |-xdg-desktop-por(6514)-+-sh(6546)---pxgsettings(6547)-+-{pxgsettings}(6548)
+           |               |                       |                              |-{pxgsettings}(6549)
+           |               |                       |                              `-{pxgsettings}(6550)
+           |               |                       |-{xdg-desktop-por}(6521)
+           |               |                       |-{xdg-desktop-por}(6523)
+           |               |                       |-{xdg-desktop-por}(6545)
+           |               |                       `-{xdg-desktop-por}(6559)
+           |               |-xdg-desktop-por(6539)-+-{xdg-desktop-por}(6540)
+           |               |                       |-{xdg-desktop-por}(6541)
+           |               |                       `-{xdg-desktop-por}(6543)
+           |               |-xdg-desktop-por(6551)-+-{xdg-desktop-por}(6552)
+           |               |                       |-{xdg-desktop-por}(6556)
+           |               |                       `-{xdg-desktop-por}(6558)
+           |               |-xdg-document-po(6526)-+-fusermount3(6535)
+           |               |                       |-{xdg-document-po}(6527)
+           |               |                       |-{xdg-document-po}(6528)
+           |               |                       |-{xdg-document-po}(6534)
+           |               |                       |-{xdg-document-po}(6537)
+           |               |                       `-{xdg-document-po}(6538)
+           |               `-xdg-permission-(6529)-+-{xdg-permission-}(6530)
+           |                                       `-{xdg-permission-}(6532)
+           |-systemd-journal(371)
+           |-systemd-logind(723)
+           |-systemd-resolve(656)
+           |-systemd-timesyn(657)---{systemd-timesyn}(675)
+           |-systemd-udevd(408)
+           |-thermald(726)-+-{thermald}(867)
+           |               |-{thermald}(868)
+           |               `-{thermald}(874)
+           |-touchegg(729)-+-{touchegg}(837)
+           |               `-{touchegg}(838)
+           |-udisksd(733)-+-{udisksd}(750)
+           |              |-{udisksd}(757)
+           |              |-{udisksd}(810)
+           |              `-{udisksd}(840)
+           |-upowerd(869)-+-{upowerd}(871)
+           |              `-{upowerd}(872)
+           |-wpa_supplicant(734)
+           |-xed(9726)-+-{xed}(9728)
+           |           |-{xed}(9729)
+           |           `-{xed}(9730)
+           `-zed(736)-+-{zed}(745)
+                      `-{zed}(746)

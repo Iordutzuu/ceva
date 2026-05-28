@@ -1,0 +1,12 @@
+model name	: 13th Gen Intel(R) Core(TM) i5-13420H
+model name	: 13th Gen Intel(R) Core(TM) i5-13420H
+model name	: 13th Gen Intel(R) Core(TM) i5-13420H
+model name	: 13th Gen Intel(R) Core(TM) i5-13420H
+model name	: 13th Gen Intel(R) Core(TM) i5-13420H
+model name	: 13th Gen Intel(R) Core(TM) i5-13420H
+model name	: 13th Gen Intel(R) Core(TM) i5-13420H
+model name	: 13th Gen Intel(R) Core(TM) i5-13420H
+model name	: 13th Gen Intel(R) Core(TM) i5-13420H
+model name	: 13th Gen Intel(R) Core(TM) i5-13420H
+model name	: 13th Gen Intel(R) Core(TM) i5-13420H
+model name	: 13th Gen Intel(R) Core(TM) i5-13420H

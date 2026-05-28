@@ -1,0 +1,8 @@
+=== FILE DIFF ===
+
+[ADDED]
+/mnt/c/Users/rjoac/OneDrive/Escritorio/E13_homework_repo_15/tema3/src/dummy_test_file.txt
+
+[DELETED]
+
+[MODIFIED]

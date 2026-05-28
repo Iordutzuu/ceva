@@ -1,0 +1,12 @@
+subcommand: build
+start: 2026-03-30 04:01:32
+subcommand: build
+start: 2026-03-30 04:01:32
+end: 2026-03-30 04:01:32
+duration_seconds: 0
+exit_code: 0
+subcommand: test
+start: 2026-03-30 04:01:32
+end: 2026-03-30 04:01:32
+duration_seconds: 0
+exit_code: 0

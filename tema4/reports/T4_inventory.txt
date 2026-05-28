@@ -1,0 +1,9 @@
+T4 inventory test
+PASS
+DB: data/t4_inventory.db
+Dump:
+magic=INV4
+version=1
+complete=1
+file_record_count=3
+worker_count=2

@@ -1,0 +1,3 @@
+evaluare-in-clasa.sh PASS
+t4_inventory.sh PASS
+t5_signals_pipes.sh PASS

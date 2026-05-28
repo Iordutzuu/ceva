@@ -1,0 +1,13 @@
+total 48
+drwxrwxr-x 12 stefan stefan 4096 Mar 11 19:55 .
+drwxrwxr-x  3 stefan stefan 4096 Mar 12 18:15 ..
+drwxrwxr-x  2 stefan stefan 4096 Mar 11 16:14 bin
+drwxrwxr-x  2 stefan stefan 4096 Mar 11 16:14 data
+drwxrwxr-x  2 stefan stefan 4096 Mar 12 17:10 doc
+drwxrwxr-x  2 stefan stefan 4096 Mar 11 16:14 include
+drwxrwxr-x  2 stefan stefan 4096 Mar 11 16:14 logs
+drwxrwxr-x  6 stefan stefan 4096 Mar 11 20:06 reports
+drwxrwxr-x  2 stefan stefan 4096 Mar 11 16:14 src
+drwxrwxr-x  2 stefan stefan 4096 Mar 11 16:14 tests
+drwxrwxr-x  2 stefan stefan 4096 Mar 11 16:14 tmp
+drwxrwxr-x  2 stefan stefan 4096 Mar 11 20:05 tools

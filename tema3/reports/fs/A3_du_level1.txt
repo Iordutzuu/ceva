@@ -1,0 +1,11 @@
+8,0K	./tools
+4,0K	./tmp
+16K	./doc
+4,0K	./tests
+4,0K	./data
+4,0K	./bin
+4,0K	./logs
+4,0K	./include
+4,0K	./src
+128K	./reports
+184K	.

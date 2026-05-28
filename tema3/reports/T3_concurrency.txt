@@ -1,0 +1,11 @@
+T3 concurrency test - proc_snapshot
+proc_snapshot instance 1 exit code: 1
+proc_snapshot instance 2 exit code: 1
+proc_snapshot instance 3 exit code: 0
+PASS: proc_snapshot concurrency test passed
+
+T3 concurrency test - fileops_indexer
+fileops_indexer instance 1 exit code: 0
+fileops_indexer instance 2 exit code: 0
+fileops_indexer instance 3 exit code: 0
+PASS: fileops_indexer concurrency test passed
